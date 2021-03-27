@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>dakar</OriginalElement>
+  <nodes>
+    <node x="623.2685185185186" y="576.0">dakar.Moto</node>
+    <node x="228.50000000000003" y="576.0">dakar.Auto</node>
+    <node x="269.8935185185186" y="872.0">dakar.Carrera</node>
+    <node x="420.0185185185186" y="703.0">dakar.SocorristaMoto</node>
+    <node x="293.1250000000001" y="0.0">dakar.Vehiculo</node>
+    <node x="10.5" y="703.0">dakar.SocorristaAuto</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="dakar.Carrera" target="dakar.Moto">
+      <point x="94.5" y="-314.0" />
+      <point x="553.3935185185186" y="832.0" />
+      <point x="809.7685185185186" y="832.0" />
+      <point x="809.7685185185186" y="678.0" />
+      <point x="767.2685185185186" y="678.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="dakar.Carrera" target="dakar.Auto">
+      <point x="-56.700000000000045" y="-314.0" />
+      <point x="402.19351851851854" y="852.0" />
+      <point x="387.4069444444445" y="852.0" />
+      <point x="387.4069444444445" y="678.0" />
+      <point x="371.0" y="678.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="dakar.Carrera" target="dakar.SocorristaMoto">
+      <point x="18.899999999999977" y="-314.0" />
+      <point x="477.79351851851857" y="852.0" />
+      <point x="508.2685185185186" y="852.0" />
+      <point x="-88.25" y="49.5" />
+    </edge>
+    <edge source="dakar.SocorristaMoto" target="dakar.Moto">
+      <point x="117.66666666666663" y="-49.5" />
+      <point x="714.1851851851852" y="678.0" />
+      <point x="671.2685185185186" y="678.0" />
+      <point x="-96.0" y="38.5" />
+    </edge>
+    <edge source="dakar.Auto" target="dakar.Vehiculo">
+      <point x="71.25" y="-38.5" />
+      <point x="442.25" y="556.0" />
+      <point x="479.42500000000007" y="556.0" />
+      <point x="-20.700000000000045" y="248.0" />
+    </edge>
+    <edge source="dakar.Carrera" target="dakar.SocorristaAuto">
+      <point x="-132.30000000000007" y="-314.0" />
+      <point x="326.5935185185185" y="842.0" />
+      <point x="98.0" y="842.0" />
+      <point x="-87.5" y="49.5" />
+    </edge>
+    <edge source="dakar.SocorristaAuto" target="dakar.Auto">
+      <point x="116.66666666666669" y="-49.5" />
+      <point x="302.1666666666667" y="678.0" />
+      <point x="276.0" y="678.0" />
+      <point x="-95.0" y="38.5" />
+    </edge>
+    <edge source="dakar.SocorristaAuto" target="dakar.Vehiculo">
+      <point x="-116.66666666666669" y="-49.5" />
+      <point x="68.83333333333331" y="678.0" />
+      <point x="112.32361111111118" y="678.0" />
+      <point x="112.32361111111118" y="526.0" />
+      <point x="355.22500000000014" y="526.0" />
+      <point x="-144.89999999999998" y="248.0" />
+    </edge>
+    <edge source="dakar.SocorristaMoto" target="dakar.Vehiculo">
+      <point x="-117.66666666666663" y="-49.5" />
+      <point x="478.85185185185196" y="678.0" />
+      <point x="552.3472222222223" y="678.0" />
+      <point x="552.3472222222223" y="556.0" />
+      <point x="520.825" y="556.0" />
+      <point x="20.699999999999932" y="248.0" />
+    </edge>
+    <edge source="dakar.Moto" target="dakar.Vehiculo">
+      <point x="-72.0" y="-38.5" />
+      <point x="695.2685185185186" y="556.0" />
+      <point x="603.625" y="556.0" />
+      <point x="103.49999999999989" y="248.0" />
+    </edge>
+    <edge source="dakar.Carrera" target="dakar.Vehiculo">
+      <point x="-170.10000000000008" y="-314.0" />
+      <point x="288.79351851851857" y="852.0" />
+      <point x="0.0" y="852.0" />
+      <point x="0.0" y="516.0" />
+      <point x="313.82500000000016" y="516.0" />
+      <point x="-186.29999999999995" y="248.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="1171.333333333333" y="974.6666666666666" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
